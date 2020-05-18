@@ -14,14 +14,13 @@ struct VideoRow: View {
 
      var body: some View {
         HStack {
-//            NetworkImage(url: video.url)
-//            .scaledToFill()
-//            .frame(width: 100, height: 100)
-//            .clipped()
+            NetworkImage(url: video.url)
+            .scaledToFill()
+            .frame(width: 100, height: 100)
+            .clipped()
             VStack(alignment: .leading) {
                  Text(video.title)
                  Text(video.description)
-                 Text(video.thumbnails)
                  
             }
         }

@@ -11,9 +11,8 @@ import Foundation
 struct Video: Codable {
  var title: String
  var description: String
- var thumbnails: String
+ var url: URL
 }
 struct VideoResults: Codable {
- var resultCount: Int
- var results: [Video]
+ var items: [Video]
 }
