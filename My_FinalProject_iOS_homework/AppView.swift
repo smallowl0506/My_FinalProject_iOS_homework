@@ -10,41 +10,38 @@ import Foundation
 import SwiftUI
 
 struct AppView: View {
-
- @State private var videos = [Video]()
-
- func fetchVideos() {
-     let urlStr = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet,contentDetails,status&playlistId=UUzjNxGvrqfxL9KGkObbzrmg&key=AIzaSyCmeIGJotEPH4FYdtyiX-fwI8CxbF0nJ6Q&maxResults=50"
-     if let url = URL(string: urlStr) {
-     URLSession.shared.dataTask(with: url) { (data,
-    response , error) in
-     let decoder = JSONDecoder()
-    if let data = data, let videoResults = try?
-    decoder.decode(VideoResults.self, from: data) {
-     self.videos = videoResults.items
-     }
-     }.resume()
-
-     }
-
- }
-    
     var body: some View {
-
-        NavigationView {
-         List(videos.indices, id: \.self, rowContent: { (index) in
-         NavigationLink(destination: VideoDetail(video:
-        self.videos[index])) {
-         VideoRow(video: self.videos[index])
-         }
-         })
-         .onAppear {
-         self.fetchVideos()
-         }
-         }
-
+        VStack{
+            TabView {
+                PostView()
+                    .tabItem {
+                        Text("不分區文章列表")
+                        Image(systemName: "star.fill")
+                }
+                ForumView()
+                    .tabItem{
+                    Image(systemName: "star")
+                    Text("各校看板話題")
+                }
+                PageTabView()
+                    .tabItem{
+                    Image(systemName: "heart.fill")
+                    Text("帥哥美女抽一個")
+                }
+                SafariTabView()
+                    .tabItem{
+                    Image(systemName: "heart")
+                    Text("大學生選美大賽")
+                }
+                ImagePickerTabView()
+                    .tabItem{
+                    Image(systemName: "app.gift.fill")
+                    Text("選擇照片")
+                }
+            }
+            .accentColor(.red)
+        }
     }
-    
 }
 
 struct AppView_Previews: PreviewProvider {

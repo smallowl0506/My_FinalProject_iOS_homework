@@ -29,6 +29,18 @@
 		49C33293246D825100DF1731 /* song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C33292246D825100DF1731 /* song.swift */; };
 		49C33295246D828100DF1731 /* SongRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C33294246D828100DF1731 /* SongRow.swift */; };
 		49C33297246D83B200DF1731 /* SongDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C33296246D83B200DF1731 /* SongDetail.swift */; };
+		49FF314B24768BCE0049C281 /* Forum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FF314A24768BCE0049C281 /* Forum.swift */; };
+		49FF314D24768DB10049C281 /* ForumRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FF314C24768DB10049C281 /* ForumRow.swift */; };
+		49FF314F24768E690049C281 /* ForumDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FF314E24768E690049C281 /* ForumDetail.swift */; };
+		49FF315124768EBD0049C281 /* ForumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FF315024768EBD0049C281 /* ForumView.swift */; };
+		49FF315324769A440049C281 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FF315224769A440049C281 /* WebView.swift */; };
+		49FF315524769BA50049C281 /* PageTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FF315424769BA50049C281 /* PageTabView.swift */; };
+		49FF31572476A05C0049C281 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FF31562476A05C0049C281 /* PlayerView.swift */; };
+		49FF31592476A0880049C281 /* ViedoTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FF31582476A0880049C281 /* ViedoTabView.swift */; };
+		49FF315B2476A1DB0049C281 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FF315A2476A1DB0049C281 /* SafariView.swift */; };
+		49FF315D2476A2D60049C281 /* SafariTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FF315C2476A2D60049C281 /* SafariTabView.swift */; };
+		49FF315F2476A4D80049C281 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FF315E2476A4D80049C281 /* ImagePickerController.swift */; };
+		49FF31612476A5170049C281 /* ImagePickerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FF31602476A5170049C281 /* ImagePickerTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +68,18 @@
 		49C33292246D825100DF1731 /* song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = song.swift; sourceTree = "<group>"; };
 		49C33294246D828100DF1731 /* SongRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRow.swift; sourceTree = "<group>"; };
 		49C33296246D83B200DF1731 /* SongDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetail.swift; sourceTree = "<group>"; };
+		49FF314A24768BCE0049C281 /* Forum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forum.swift; sourceTree = "<group>"; };
+		49FF314C24768DB10049C281 /* ForumRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumRow.swift; sourceTree = "<group>"; };
+		49FF314E24768E690049C281 /* ForumDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumDetail.swift; sourceTree = "<group>"; };
+		49FF315024768EBD0049C281 /* ForumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumView.swift; sourceTree = "<group>"; };
+		49FF315224769A440049C281 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		49FF315424769BA50049C281 /* PageTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTabView.swift; sourceTree = "<group>"; };
+		49FF31562476A05C0049C281 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		49FF31582476A0880049C281 /* ViedoTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViedoTabView.swift; sourceTree = "<group>"; };
+		49FF315A2476A1DB0049C281 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		49FF315C2476A2D60049C281 /* SafariTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariTabView.swift; sourceTree = "<group>"; };
+		49FF315E2476A4D80049C281 /* ImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
+		49FF31602476A5170049C281 /* ImagePickerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +101,7 @@
 				49C33292246D825100DF1731 /* song.swift */,
 				49B9FBDF2472980800B3754D /* coffee.swift */,
 				49B9FBE724729DC700B3754D /* Post.swift */,
+				49FF314A24768BCE0049C281 /* Forum.swift */,
 				49C33275246D4F9C00DF1731 /* My_FinalProject_iOS_homework */,
 				49C33274246D4F9C00DF1731 /* Products */,
 			);
@@ -99,14 +124,25 @@
 				49C33294246D828100DF1731 /* SongRow.swift */,
 				49B9FBE1247298BA00B3754D /* CoffeeRow.swift */,
 				49B9FBE924729E1300B3754D /* PostRow.swift */,
+				49FF314C24768DB10049C281 /* ForumRow.swift */,
 				49C3327A246D4F9C00DF1731 /* ContentView.swift */,
 				49B9FBDB24728C7000B3754D /* AppView.swift */,
+				49FF315E2476A4D80049C281 /* ImagePickerController.swift */,
+				49FF31602476A5170049C281 /* ImagePickerTabView.swift */,
+				49FF315224769A440049C281 /* WebView.swift */,
+				49FF315424769BA50049C281 /* PageTabView.swift */,
+				49FF31562476A05C0049C281 /* PlayerView.swift */,
+				49FF315A2476A1DB0049C281 /* SafariView.swift */,
+				49FF315C2476A2D60049C281 /* SafariTabView.swift */,
+				49FF31582476A0880049C281 /* ViedoTabView.swift */,
 				49B9FBE52472997100B3754D /* CoffeeMainView.swift */,
 				49B9FBED24729F1500B3754D /* PostView.swift */,
+				49FF315024768EBD0049C281 /* ForumView.swift */,
 				49C33296246D83B200DF1731 /* SongDetail.swift */,
 				49B9FBDD247291F400B3754D /* VideoDetail.swift */,
 				49B9FBE32472991B00B3754D /* CoffeeDetail.swift */,
 				49B9FBEB24729EDB00B3754D /* PostDetail.swift */,
+				49FF314E24768E690049C281 /* ForumDetail.swift */,
 				49C3327C246D4F9F00DF1731 /* Assets.xcassets */,
 				49C33281246D4F9F00DF1731 /* LaunchScreen.storyboard */,
 				49C33284246D4F9F00DF1731 /* Info.plist */,
@@ -194,25 +230,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49FF315124768EBD0049C281 /* ForumView.swift in Sources */,
 				49C33277246D4F9C00DF1731 /* AppDelegate.swift in Sources */,
 				49B9FBDE247291F400B3754D /* VideoDetail.swift in Sources */,
 				49B9FBE62472997100B3754D /* CoffeeMainView.swift in Sources */,
 				49C3328B246D65E400DF1731 /* video.swift in Sources */,
 				49C3328D246D6B0A00DF1731 /* VideoRow.swift in Sources */,
+				49FF31592476A0880049C281 /* ViedoTabView.swift in Sources */,
+				49FF315F2476A4D80049C281 /* ImagePickerController.swift in Sources */,
 				49C33293246D825100DF1731 /* song.swift in Sources */,
+				49FF31572476A05C0049C281 /* PlayerView.swift in Sources */,
+				49FF315524769BA50049C281 /* PageTabView.swift in Sources */,
 				49C33297246D83B200DF1731 /* SongDetail.swift in Sources */,
 				49C33279246D4F9C00DF1731 /* SceneDelegate.swift in Sources */,
+				49FF315324769A440049C281 /* WebView.swift in Sources */,
 				49C33291246D747600DF1731 /* NetworkImage.swift in Sources */,
 				49B9FBEE24729F1500B3754D /* PostView.swift in Sources */,
 				49C3327B246D4F9C00DF1731 /* ContentView.swift in Sources */,
 				49B9FBEC24729EDB00B3754D /* PostDetail.swift in Sources */,
+				49FF314F24768E690049C281 /* ForumDetail.swift in Sources */,
 				49B9FBE2247298BA00B3754D /* CoffeeRow.swift in Sources */,
 				49B9FBE824729DC700B3754D /* Post.swift in Sources */,
+				49FF315B2476A1DB0049C281 /* SafariView.swift in Sources */,
+				49FF314D24768DB10049C281 /* ForumRow.swift in Sources */,
 				49B9FBE42472991B00B3754D /* CoffeeDetail.swift in Sources */,
+				49FF31612476A5170049C281 /* ImagePickerTabView.swift in Sources */,
 				49B9FBDC24728C7000B3754D /* AppView.swift in Sources */,
+				49FF315D2476A2D60049C281 /* SafariTabView.swift in Sources */,
 				49B9FBEA24729E1300B3754D /* PostRow.swift in Sources */,
 				49C33295246D828100DF1731 /* SongRow.swift in Sources */,
 				49B9FBE02472980800B3754D /* coffee.swift in Sources */,
+				49FF314B24768BCE0049C281 /* Forum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
