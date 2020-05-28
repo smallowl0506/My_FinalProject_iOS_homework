@@ -11,18 +11,25 @@ import SwiftUI
 
 struct PageTabView: View {
     let urls = [
-      "https://i1.kknews.cc/SIG=h9o5ph/ctp-vzntr/80p7579q7p324qs2or28177o9n8q55o8.jpg",
-      "https://i2.kknews.cc/SIG=2qq3t1g/ctp-vzntr/pp6n36pq998646sr9o3340695os3oo37.jpg"
+      "https://pbs.twimg.com/media/Dmc_mAxW0AIXPQY.jpg",
+      "http://bang-dream-news.com/wp-content/uploads/2019/03/7JXmW03-1.png",
+      "http://bangdream-love.xyz/wp-content/uploads/2019/03/4d8f385a2c42231003e709bae598426f-1-1024x578.jpg",
+      "https://i.ytimg.com/vi/IfEg9spKTiI/maxresdefault.jpg",
+      "https://pbs.twimg.com/media/DJmmVtrUQAI33sO.jpg",
+      "https://i.redd.it/oqvgwmspyam21.jpg",
+      "https://pbs.twimg.com/media/DotjdiPU4AAnyLU.jpg",
+      "https://vignette.wikia.nocookie.net/bandori/images/b/bb/Pastel*Palettes_3rd_Single_Cover.jpg/revision/latest?cb=20180816064242"
     ]
     
     @State private var urlString = ""
     
     var body: some View {
         VStack {
+            Spacer()
             WebView(urlString: urlString)
-            Button("2019日本投票最帥大學生OR最美大學生抽一個") {
+            Button("精美圖片抽一張!!!") {
                 self.urlString = self.urls.randomElement()!
-            }
+            }.padding()
         }
     }
 }

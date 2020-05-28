@@ -13,11 +13,11 @@ struct SafariTabView: View {
     @State private var showWebpage = false
     var body: some View {
         
-        Button("show webpage") {
+        Button("少女樂團派對官方網站") {
             self.showWebpage = true
         }
         .sheet(isPresented: $showWebpage) {
-            SafariView(url: URL(string: "https://www.juksy.com/archives/64266")!)
+            SafariView(url: URL(string: "https://bang-dream.com/")!)
 //                .frame(width: 300, height: 300)
 //                .clipShape(Circle())
         }
