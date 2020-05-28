@@ -28,6 +28,11 @@ struct Bandori_pictureAppView: View {
                     Image(systemName: "app.gift.fill")
                     Text("選擇相簿照片")
                 }
+                QRcodeView()
+                    .tabItem{
+                    Image(systemName: "qrcode")
+                    Text("中文遊戲官網")
+                }
             }
             .accentColor(.red)
         }
