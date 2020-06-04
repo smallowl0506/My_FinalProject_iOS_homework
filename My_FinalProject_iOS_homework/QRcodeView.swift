@@ -10,13 +10,29 @@ import Foundation
 import SwiftUI
 
 struct QRcodeView: View {
+    @State private var scale: CGFloat = 1
+    @State private var selectedName = "QRcode_臺灣"
+    var QRcodes = ["QRcode_臺灣", "QRcode_日本", "QRcode_中國"]
     var body: some View {
         VStack{
-            Image("QRcode")
+            Image(selectedName)
             .scaledToFill()
+            .scaleEffect(scale)
+            .onLongPressGesture {
+                self.scale *= 1.3
+            }
 //            .frame(width: 400, height: 400)
 //            .clipped()
-            Text("少女樂團派對手機遊戲中文官方網站")
+            Picker(selection: self.$selectedName, label: Text("選擇官方網站")) {
+                ForEach(self.QRcodes, id: \.self) { (QRcode) in
+                    Text(QRcode)
+                }
+            }
+//            .pickerStyle(WheelPickerStyle())
+            .pickerStyle(SegmentedPickerStyle())
+            Text("少女樂團派對手機遊戲官方網站")
+            .bold()
+            Text("(長按可放大)")
             .bold()
         }
     }

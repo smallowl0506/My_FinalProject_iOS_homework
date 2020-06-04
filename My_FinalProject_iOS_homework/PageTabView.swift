@@ -25,11 +25,10 @@ struct PageTabView: View {
     
     var body: some View {
         VStack {
-            Spacer()
             WebView(urlString: urlString)
             Button("精美圖片抽一張!!!") {
                 self.urlString = self.urls.randomElement()!
-            }.padding()
+            }
         }
     }
 }
