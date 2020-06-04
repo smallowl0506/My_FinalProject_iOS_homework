@@ -11,7 +11,8 @@ import SwiftUI
 
 struct AppView: View {
     var body: some View {
-        VStack{
+        let charData = CharData()
+        return VStack{
             TabView {
                 PostView()
                     .tabItem {
@@ -39,6 +40,7 @@ struct AppView: View {
                     Text("選擇照片")
                 }
             }
+            .environmentObject(charData)
             .accentColor(.red)
         }
     }

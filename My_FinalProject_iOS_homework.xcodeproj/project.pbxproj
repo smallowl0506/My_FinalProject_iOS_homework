@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49138B4B248929F500E217F3 /* Char.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49138B4A248929F500E217F3 /* Char.swift */; };
+		49138B4D24892A3C00E217F3 /* CharData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49138B4C24892A3C00E217F3 /* CharData.swift */; };
 		49B9FBDC24728C7000B3754D /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B9FBDB24728C7000B3754D /* AppView.swift */; };
 		49B9FBDE247291F400B3754D /* VideoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B9FBDD247291F400B3754D /* VideoDetail.swift */; };
 		49B9FBE02472980800B3754D /* coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B9FBDF2472980800B3754D /* coffee.swift */; };
@@ -63,6 +65,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49138B4A248929F500E217F3 /* Char.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Char.swift; sourceTree = "<group>"; };
+		49138B4C24892A3C00E217F3 /* CharData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharData.swift; sourceTree = "<group>"; };
 		49B9FBDB24728C7000B3754D /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		49B9FBDD247291F400B3754D /* VideoDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetail.swift; sourceTree = "<group>"; };
 		49B9FBDF2472980800B3754D /* coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coffee.swift; sourceTree = "<group>"; };
@@ -142,6 +146,8 @@
 				49B9FBDF2472980800B3754D /* coffee.swift */,
 				49B9FBE724729DC700B3754D /* Post.swift */,
 				49FF314A24768BCE0049C281 /* Forum.swift */,
+				49138B4A248929F500E217F3 /* Char.swift */,
+				49138B4C24892A3C00E217F3 /* CharData.swift */,
 				49C33275246D4F9C00DF1731 /* My_FinalProject_iOS_homework */,
 				49C33274246D4F9C00DF1731 /* Products */,
 			);
@@ -318,6 +324,7 @@
 				558C92BA247FEE5100989EF4 /* Bandori_cardAppView.swift in Sources */,
 				49C3327B246D4F9C00DF1731 /* ContentView.swift in Sources */,
 				558C92B4247FED5200989EF4 /* Bandori_cardView2.swift in Sources */,
+				49138B4B248929F500E217F3 /* Char.swift in Sources */,
 				558C92B2247FE71700989EF4 /* Bandori_cardView.swift in Sources */,
 				49B9FBEC24729EDB00B3754D /* PostDetail.swift in Sources */,
 				49FF314F24768E690049C281 /* ForumDetail.swift in Sources */,
@@ -331,6 +338,7 @@
 				558C92A2247FD04700989EF4 /* BandoriAppView.swift in Sources */,
 				49FF31612476A5170049C281 /* ImagePickerTabView.swift in Sources */,
 				49B9FBDC24728C7000B3754D /* AppView.swift in Sources */,
+				49138B4D24892A3C00E217F3 /* CharData.swift in Sources */,
 				49FF315D2476A2D60049C281 /* SafariTabView.swift in Sources */,
 				49B9FBEA24729E1300B3754D /* PostRow.swift in Sources */,
 				558C9296247FBFD600989EF4 /* Bandori_memberDetail.swift in Sources */,

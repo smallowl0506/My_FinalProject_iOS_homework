@@ -11,7 +11,8 @@ import SwiftUI
 
 struct BandoriAppView: View {
     var body: some View {
-        VStack{
+        let charData = CharData()
+        return VStack{
 //            NavigationView {
 //                NavigationLink(destination: Bandori_memberAppView()) {
 //                   Text("角色介紹")
@@ -34,6 +35,7 @@ struct BandoriAppView: View {
                     Text("照片&官網")
                 }
             }
+            .environmentObject(charData)
             .accentColor(.red)
         }
     }

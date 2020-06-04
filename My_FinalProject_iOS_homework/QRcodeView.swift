@@ -12,14 +12,30 @@ import SwiftUI
 struct QRcodeView: View {
     @State private var scale: CGFloat = 1
     @State private var selectedName = "QRcode_臺灣"
+    @State private var show = false
     var QRcodes = ["QRcode_臺灣", "QRcode_日本", "QRcode_中國"]
     var body: some View {
         VStack{
-            Image(selectedName)
-            .scaledToFill()
-            .scaleEffect(scale)
-            .onLongPressGesture {
-                self.scale *= 1.3
+            if show{
+                Image(selectedName)
+                .scaledToFill()
+                .scaleEffect(scale)
+                .onLongPressGesture {
+                    self.scale *= 1.3
+                }
+                .transition(
+                    AnyTransition.scale(scale: 3)
+                        .combined(with: .opacity)
+//                    .asymmetric(insertion: .scale(scale: 3), removal: .slide)
+                )
+            }else{
+                Image(selectedName)
+                .scaledToFill()
+                .scaleEffect(scale)
+                .onLongPressGesture {
+                    self.scale *= 1.3
+                }
+                .hidden()
             }
 //            .frame(width: 400, height: 400)
 //            .clipped()
@@ -34,6 +50,10 @@ struct QRcodeView: View {
             .bold()
             Text("(長按可放大)")
             .bold()
+        }
+        .animation(.easeInOut(duration: 2))
+        .onAppear {
+         self.show = true
         }
     }
 }
