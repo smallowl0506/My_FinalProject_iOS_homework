@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		476FDB5C2490921500AD49E5 /* Bandori_concertAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476FDB5B2490921500AD49E5 /* Bandori_concertAppView.swift */; };
 		49138B4B248929F500E217F3 /* Char.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49138B4A248929F500E217F3 /* Char.swift */; };
 		49138B4D24892A3C00E217F3 /* CharData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49138B4C24892A3C00E217F3 /* CharData.swift */; };
 		49B9FBDC24728C7000B3754D /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B9FBDB24728C7000B3754D /* AppView.swift */; };
@@ -65,6 +66,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		476FDB5B2490921500AD49E5 /* Bandori_concertAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bandori_concertAppView.swift; sourceTree = "<group>"; };
 		49138B4A248929F500E217F3 /* Char.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Char.swift; sourceTree = "<group>"; };
 		49138B4C24892A3C00E217F3 /* CharData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharData.swift; sourceTree = "<group>"; };
 		49B9FBDB24728C7000B3754D /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				558C92A7247FDD7300989EF4 /* Bandori_pictureAppView.swift */,
 				558C92A3247FD9D900989EF4 /* Bandori_memberAppView.swift */,
 				558C92B9247FEE5100989EF4 /* Bandori_cardAppView.swift */,
+				476FDB5B2490921500AD49E5 /* Bandori_concertAppView.swift */,
 				558C92BB247FF35000989EF4 /* QRcodeView.swift */,
 				49FF315E2476A4D80049C281 /* ImagePickerController.swift */,
 				49FF31602476A5170049C281 /* ImagePickerTabView.swift */,
@@ -296,6 +299,7 @@
 				49FF315124768EBD0049C281 /* ForumView.swift in Sources */,
 				558C92A8247FDD7300989EF4 /* Bandori_pictureAppView.swift in Sources */,
 				49C33277246D4F9C00DF1731 /* AppDelegate.swift in Sources */,
+				476FDB5C2490921500AD49E5 /* Bandori_concertAppView.swift in Sources */,
 				49B9FBDE247291F400B3754D /* VideoDetail.swift in Sources */,
 				49B9FBE62472997100B3754D /* CoffeeMainView.swift in Sources */,
 				49C3328B246D65E400DF1731 /* video.swift in Sources */,

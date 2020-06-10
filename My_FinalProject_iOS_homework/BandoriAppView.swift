@@ -34,6 +34,11 @@ struct BandoriAppView: View {
                     Image(systemName: "camera.fill")
                     Text("照片&官網")
                 }
+                Bandori_concertAppView()
+                    .tabItem{
+                    Image(systemName: "music.note")
+                    Text("演唱會影片")
+                }
             }
             .environmentObject(charData)
             .accentColor(.red)
