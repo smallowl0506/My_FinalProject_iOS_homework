@@ -13,32 +13,31 @@ struct BandoriAppView: View {
     var body: some View {
         let charData = CharData()
         return VStack{
-//            NavigationView {
-//                NavigationLink(destination: Bandori_memberAppView()) {
-//                   Text("角色介紹")
-//                }
-//            }
-//
             TabView {
-                Bandori_memberAppView()
+                Bandori_memberView()
                     .tabItem{
                     Image(systemName: "book.fill")
                     Text("角色選單")
                 }
-                Bandori_cardAppView()
+                Bandori_cardView()
                     .tabItem{
                     Image(systemName: "creditcard.fill")
                     Text("卡片選單")
                 }
-                Bandori_pictureAppView()
+                QRcodeView()
                     .tabItem{
-                    Image(systemName: "camera.fill")
-                    Text("照片&官網")
-                }
+                    Image(systemName: "qrcode")
+                    Text("遊戲官網")
+            }
                 Bandori_concertAppView()
                     .tabItem{
                     Image(systemName: "music.note")
                     Text("演唱會影片")
+                }
+                Bandori_pictureAppView()
+                    .tabItem{
+                    Image(systemName: "link")
+                    Text("企劃官網")
                 }
             }
             .environmentObject(charData)

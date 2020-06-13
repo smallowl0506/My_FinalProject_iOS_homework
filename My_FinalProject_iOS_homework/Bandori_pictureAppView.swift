@@ -17,24 +17,24 @@ struct Bandori_pictureAppView: View {
                    Text("前往官方網站")
                 }
             }
-            TabView {
-                PageTabView()
-                    .tabItem{
-                    Image(systemName: "heart.fill")
-                    Text("觀看精美照片")
-                }
-                ImagePickerTabView()
-                    .tabItem{
-                    Image(systemName: "app.gift.fill")
-                    Text("選擇相簿照片")
-                }
-                QRcodeView()
-                    .tabItem{
-                    Image(systemName: "qrcode")
-                    Text("中文遊戲官網")
-                }
-            }
-            .accentColor(.red)
+//            TabView {
+//                PageTabView()
+//                    .tabItem{
+//                    Image(systemName: "heart.fill")
+//                    Text("觀看精美照片")
+//                }
+//                ImagePickerTabView()
+//                    .tabItem{
+//                    Image(systemName: "app.gift.fill")
+//                    Text("選擇相簿照片")
+//                }
+//                QRcodeView()
+//                    .tabItem{
+//                    Image(systemName: "qrcode")
+//                    Text("中文遊戲官網")
+//                }
+//            }
+//            .accentColor(.red)
         }
     }
 }
