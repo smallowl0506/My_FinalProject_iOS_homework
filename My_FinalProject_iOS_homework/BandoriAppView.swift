@@ -18,6 +18,7 @@ struct BandoriAppView: View {
 //                   Text("角色介紹")
 //                }
 //            }
+//
             TabView {
                 Bandori_memberAppView()
                     .tabItem{
