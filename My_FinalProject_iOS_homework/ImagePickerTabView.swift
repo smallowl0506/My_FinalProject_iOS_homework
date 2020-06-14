@@ -21,8 +21,8 @@ struct ImagePickerTabView: View {
          }) {
          selectImage
          .resizable()
-         .scaledToFill()
-         .frame(width: 200, height: 200)
+         .scaledToFit()
+         .frame(width: 400, height: 400)
          .clipped()
 
          }

@@ -16,6 +16,8 @@ struct QRcodeView: View {
     var QRcodes = ["QRcode_臺灣", "QRcode_日本", "QRcode_中國"]
     var body: some View {
         VStack{
+            ImagePickerTabView()
+            .padding(.bottom, 50)
             if show{
                 Image(selectedName)
                 .scaledToFill()
