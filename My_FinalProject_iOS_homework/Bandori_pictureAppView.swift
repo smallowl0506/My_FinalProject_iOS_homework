@@ -8,6 +8,7 @@
 
 import Foundation
 import SwiftUI
+import KingfisherSwiftUI
 
 struct Bandori_pictureAppView: View {
     var body: some View {
@@ -17,6 +18,18 @@ struct Bandori_pictureAppView: View {
                    Text("前往官方網站")
                 }
             }
+            KFImage(URL(string: "https://66.media.tumblr.com/7c77d2647256cabada779d7ab6291f95/tumblr_pb9zmzoder1x66p0co3_1280.png")!)
+            .resizable()
+            .scaledToFit()
+            .frame(width: 400, height: 300)
+            .clipped()
+//            .padding(.bottom, 0)
+            KFImage(URL(string: "https://66.media.tumblr.com/38e6b082149872c40e71de8c843c9529/tumblr_pde79cb1yT1x66p0co3_1280.png")!)
+            .resizable()
+            .scaledToFit()
+            .frame(width: 400, height: 300)
+            .clipped()
+//            .padding(.bottom, 20)
 //            TabView {
 //                PageTabView()
 //                    .tabItem{
