@@ -58,7 +58,7 @@ struct Bandori_memberView: View {
                  }
             }
             Spacer()
-            Button("觀看下一頁") {
+            Button(NSLocalizedString("觀看下一頁", comment: "")) {
                if(self.page<4){
                    self.page+=1
                    self.thisPage+=1

@@ -17,7 +17,12 @@ struct QRcodeView: View {
     var body: some View {
         VStack{
             ImagePickerTabView()
-            .padding(.bottom, 50)
+//            .padding(.bottom, 50)
+            Image("cover")
+                       .resizable()
+                       .scaledToFit()
+                       .frame(width: 400, height: 300)
+                       .clipped()
             if show{
                 Image(selectedName)
                 .scaledToFill()
@@ -48,9 +53,9 @@ struct QRcodeView: View {
             }
 //            .pickerStyle(WheelPickerStyle())
             .pickerStyle(SegmentedPickerStyle())
-            Text("少女樂團派對手機遊戲官方網站")
+            Text(NSLocalizedString("少女樂團派對手機遊戲官方網站", comment: ""))
             .bold()
-            Text("(長按可放大)")
+            Text(NSLocalizedString("(長按可放大)", comment: ""))
             .bold()
         }
         .animation(.easeInOut(duration: 2))

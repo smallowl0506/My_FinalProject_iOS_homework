@@ -15,7 +15,7 @@ struct Bandori_pictureAppView: View {
         VStack{
             NavigationView {
                 NavigationLink(destination: SafariTabView()) {
-                   Text("前往官方網站")
+                   Text(NSLocalizedString("前往官方網站", comment: ""))
                 }
             }
             KFImage(URL(string: "https://66.media.tumblr.com/7c77d2647256cabada779d7ab6291f95/tumblr_pb9zmzoder1x66p0co3_1280.png")!)

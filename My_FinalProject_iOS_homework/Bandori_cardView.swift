@@ -57,14 +57,14 @@ struct Bandori_cardView: View {
                  }
             }
             Spacer()
-            Button("觀看下一頁") {
+            Button(NSLocalizedString("觀看下一頁", comment: "")) {
                if(self.page<84){
                    self.page+=1
                    self.thisPage+=1
                    self.fetchBandori_cards(page: self.page)
                }
             }
-            .padding([.top, .bottom], 20)
+            .padding(.vertical, 20)
         }
         
 
