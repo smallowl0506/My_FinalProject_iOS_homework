@@ -13,7 +13,7 @@ struct SafariTabView: View {
     @State private var showWebpage = false
     var body: some View {
         
-        Button("BanG Dream!官方網站") {
+        Button(NSLocalizedString("BanG Dream!官方網站", comment: "")) {
             self.showWebpage = true
         }
         .sheet(isPresented: $showWebpage) {

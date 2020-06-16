@@ -21,25 +21,25 @@ struct Bandori_memberDetail: View {
             .scaledToFill()
             .frame(width: 100, height: 100)
             .clipped()
-            Text("角色生日：  "+bandori_member.birthday)
+            Text(NSLocalizedString("角色生日：  ", comment: "")+bandori_member.birthday)
                 .bold()
                 .padding()
             if(bandori_member.school != nil){
-                Text("所屬學校：  "+(bandori_member.school ?? "沒有資料"))
+                Text(NSLocalizedString("所屬學校：  ", comment: "")+(bandori_member.school ?? "沒有資料"))
                 .bold()
                 .padding()
             }
             if(bandori_member.food_like != nil){
-                Text("喜歡的食物：  "+(bandori_member.food_like ?? "沒有資料"))
+                Text(NSLocalizedString("喜歡的食物：  ", comment: "")+(bandori_member.food_like ?? "沒有資料"))
                 .bold()
                 .padding()
             }
             if(bandori_member.food_dislike != nil){
-                Text("不喜歡的食物：  "+(bandori_member.food_dislike ?? "沒有資料"))
+                Text(NSLocalizedString("不喜歡的食物：  ", comment: "")+(bandori_member.food_dislike ?? "沒有資料"))
                 .bold()
                 .padding()
             }
-            Text("角色介紹：  "+bandori_member.description)
+            Text(NSLocalizedString("角色介紹：  ", comment: "")+bandori_member.description)
                 .bold()
                 .padding()
 //             Button(action: {

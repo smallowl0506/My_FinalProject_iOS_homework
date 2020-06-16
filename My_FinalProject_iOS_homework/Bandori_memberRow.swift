@@ -19,7 +19,7 @@ struct Bandori_memberRow: View {
         .frame(width: 100, height: 100)
         .clipped()
         VStack(alignment: .leading) {
-            Text("角色名稱：  "+bandori_member.japanese_name)
+            Text(NSLocalizedString("角色名稱：  ", comment: "")+bandori_member.japanese_name)
                 .bold()
             .padding()
             if(bandori_member.CV != nil){
@@ -27,10 +27,10 @@ struct Bandori_memberRow: View {
                 .bold()
                 .padding()
             }
-            Text("所屬樂團：  "+bandori_member.i_band)
+            Text(NSLocalizedString("所屬樂團：  ", comment: "")+bandori_member.i_band)
             .bold()
             .padding()
-            Text("樂團擔當：  "+bandori_member.instrument)
+            Text(NSLocalizedString("樂團擔當：  ", comment: "")+bandori_member.instrument)
             .bold()
             .padding()
 //            Text(post.excerpt)
